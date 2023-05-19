@@ -1,7 +1,7 @@
 
-/* Portfolio Project on a large data set of COVID data */ 
+/* Portfolio Project on two large data sets of COVID data */ 
 
---get the number of rows (there are 85171 rows)
+--get the number of rows (there are 85171 rows in each data set)
 
 SELECT COUNT(*)
 FROM PortfolioProject_COVID..CovidDeaths
@@ -10,7 +10,7 @@ SELECT COUNT(*)
 FROM PortfolioProject_COVID..CovidVaccinations
 
 
---look at the data 
+--look at the death data 
 
 SELECT *
 FROM PortfolioProject_COVID..CovidDeaths
